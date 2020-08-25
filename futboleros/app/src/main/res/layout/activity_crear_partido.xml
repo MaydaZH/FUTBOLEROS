@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crearPartido"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:background="#EBEBE3"
+            android:foregroundGravity="center">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:background="#111">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_settings_24"
+                android:layout_gravity="center">
+
+            </ImageView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="F U T B O L E R O S "
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                >
+
+
+            </TextView>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                android:layout_gravity="center">
+
+            </ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="200dp"
+            >
+            //DIVISION EN DOS PARA FILTRO Y IMAGENES
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="#fff">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_date_range_24"
+                    android:layout_gravity="center_vertical">
+
+                </ImageView>
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/editex"
+                    android:textSize="18dp"
+                    android:padding="10dp"
+                    android:textColor="#111"
+                    android:hint="Seleccionar Fecha"
+                    android:inputType="textPassword"
+                    android:textAlignment="center">
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+ // SELECCION DE HORAS
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="#fff">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_schedule_24"
+                    android:layout_gravity="center_vertical">
+
+                </ImageView>
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/editex"
+                    android:textSize="18dp"
+                    android:padding="10dp"
+                    android:textColor="#111"
+                    android:hint="Seleccionar Hora"
+                    android:inputType="textPassword"
+                    android:textAlignment="center">
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+
+            // fin de imput
+            // ingreso de button
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="8dp"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:background="#fff">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/botoninicio"
+                        android:padding="10dp"
+                        android:text="SIGUIENTE"
+                        android:textColor="#111"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                     />
+                </LinearLayout>
+            </LinearLayout>
+            // fin button
+        </LinearLayout>
+        // FIN 1ER DE INGRESOS DE DATOS
+    </RelativeLayout>
+</LinearLayout>

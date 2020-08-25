@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActAutenticacion"
+    android:orientation="vertical"
+    android:background="@color/colorFondo">
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondoInicial1"
+        android:foregroundGravity="center">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:radius="15dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#110"
+        android:layout_marginTop="300dp"
+        android:alpha="0.8"
+       >
+       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B I E N V E N I D O S"
+            android:textColor="#D2EA06"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp">
+       </TextView>
+
+          <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_gravity="center"
+             android:src="@drawable/ic_baseline_person_outline_24"
+             android:tint="#D2EA06">
+
+          </ImageView>
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:text="Iniciar Sesion"
+              android:textSize="16dp"
+              android:textColor="#fff"
+              android:paddingBottom="15dp">
+            </TextView>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/degradadoboton"
+            android:text="REGISTRAR"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorFondo">#FAFAFA</color>
+    <color name="colorInicio">#56B904</color>
+    <color name="fondo">#5F07F7</color>
+    <color name="botonregistro">#F7FB05</color>
+    <color name="botonregistro2">#C1C40D</color>
+
+
+</resources>

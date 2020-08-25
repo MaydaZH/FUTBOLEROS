@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".filtroProductos"
+android:orientation="vertical"
+android:background="@color/fondo">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:radius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="150dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="F U T B O L E R O S"
+                    android:textSize="30dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    >
+                </TextView>
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/editex"                  android:hint="Correo o Alias"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:layout_margin="4dp"
+                    android:textAlignment="center"
+                    android:textColor="#372D2D"
+                    android:textSize="18dp" />
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/editex"
+                    android:textSize="18dp"
+                    android:padding="10dp"
+                    android:layout_margin="4dp"
+                    android:textColor="#111"
+                    android:hint=" Contraseña"
+                    android:inputType="textPassword"
+                    android:textAlignment="center">
+                </EditText>
+
+
+                <Button
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botoninicio"
+                    android:padding="10dp"
+                    android:text="INICIAR SESION"
+                    android:textColor="#111"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="¿Olvidaste tu contraseña?"
+                    android:textSize="18dp"
+                    android:textColor="#fff"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp">
+                </TextView>
+
+                <Button
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botonregistro"
+                    android:text="REGISTRAR"
+                    android:textColor="#F7FB05"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+
+
+                    />
+                <TextView
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Al registrarme acepto los Terminos y Condiciones y la Politica de Privacidad"
+                    android:textSize="18dp"
+                    android:textColor="#fff"
+                    android:layout_marginTop="30dp">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuPrincipal"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fondo"
+            android:foregroundGravity="center">
+        </ImageView>
+
+            //DIVISION EN DOS PARA FILTRO Y IMAGENES
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:padding="2dp"
+                            android:background="#111">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_baseline_settings_24"
+                                android:layout_gravity="center">
+
+                            </ImageView>
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="3"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:text="F U T B O L E R O S "
+                                android:textColor="#fff"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                >
+
+
+                            </TextView>
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_baseline_account_circle_24"
+                                android:layout_gravity="center">
+
+                            </ImageView>
+                        </LinearLayout>
+        // MENU AZUL
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="200dp"
+                >
+                //DIVISION EN DOS PARA FILTRO Y IMAGENES
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="MIS"
+                            android:textSize="32dp"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF">
+
+                        </TextView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="OPCIONES"
+                            android:textSize="32dp"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF">
+
+                        </TextView>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="160dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginRight="10dp">
+                            // primer producto
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_marginTop="2dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:padding="2dp"
+                                android:background="@drawable/menu">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/ic_baseline_sports_soccer_24"
+                                    android:layout_gravity="center">
+
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:text="CREAR PARTIDO"
+                                    android:textColor="#fff"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold"
+                                    android:padding="10dp">
+
+                                </TextView>
+                            </LinearLayout>
+                            // segundo producto
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:background="@drawable/menu"
+                                >
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/ic_baseline_search_24"
+                                    android:layout_gravity="center">
+
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:text="BUSCAR PARTIDOS"
+                                    android:textColor="#fff"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold"
+                                    android:padding="10dp">
+
+                                </TextView>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="160dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginRight="10dp"
+                            android:orientation="horizontal"
+                            android:padding="2dp">
+                            // primer producto
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/menu"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/ic_baseline_sports_kabaddi_24"
+                                    android:layout_gravity="center">
+
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:text="CREAR    EQUIPO"
+                                    android:textColor="#fff"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold"
+                                    android:padding="10dp">
+
+                                </TextView>
+                            </LinearLayout>
+                            // segundo producto
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:background="@drawable/menu"
+                                android:padding="2dp">
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/ic_baseline_storage_24"
+                                    android:layout_gravity="center">
+
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:text="MIS   PARTIDOS"
+                                    android:textColor="#fff"
+                                    android:textSize="16dp"
+                                    android:textStyle="bold"
+                                    android:padding="10dp">
+
+                                </TextView>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
